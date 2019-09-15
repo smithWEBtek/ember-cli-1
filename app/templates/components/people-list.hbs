@@ -1,0 +1,9 @@
+{{yield}}
+
+<h2>{{@title}}</h2>
+
+<ul>
+  {{#each @people as |person| }}
+  <li><a href={{person.url}}>{{person.name}}</a></li>
+  {{/each}}
+</ul>
